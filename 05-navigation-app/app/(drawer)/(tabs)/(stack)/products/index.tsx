@@ -18,7 +18,7 @@ const ProductsScreen = () => {
 
             <View className='flex flex-row justify-between mt-5'>
               <Text className=''>{ item.price }</Text>
-              <Link href={`/(stack)/products/${ item.id }`} className='text-primary'>
+              <Link href={`/products/${ item.id }`} className='text-primary'>
                 Ver detalles
               </Link>
             </View>

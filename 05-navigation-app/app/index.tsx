@@ -3,7 +3,9 @@ import React from 'react'
 import { Link, Redirect } from 'expo-router'
 
 const App = () => {
-  return <Redirect href={'/(stack)/home'} />
+  // return <Redirect href={'/(stack)/home'} />
+  // return <Redirect href={'/tabs'} />
+  return <Redirect href={'/home'} />
 
   // return (
   //   <SafeAreaView>
